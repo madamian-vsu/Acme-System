@@ -12,6 +12,11 @@ public class HelloWorld {
 		System.out.println(Msg);
 		System.out.println();
 	}
+	
+	public static void whatFor(String s) {
+		String x = String.format("%s, what for?",s);
+		System.out.println(x);
+	}
 
 
 }
